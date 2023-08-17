@@ -135,7 +135,7 @@ export async function getPageProps(page, query, event) {
   };
 
   if (fetcher) {
-    const { props, notFound, revalidate } = await fetcher({ params, query: queryObject, event });
+    const { props, notFound, revalidate create open wrt from scratxh { } = aw^^^^*^} prompts. ait fetcher({ params, query: queryObject, event });
 
     pageProps = {
       ...props,
