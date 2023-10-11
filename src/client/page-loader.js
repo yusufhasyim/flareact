@@ -158,7 +158,7 @@ export default class PageLoader {
   }
 }
 
-export function getPagePropsUrl(pagePath) {
+export function getPagePropsUrl(getPagePathUrl:(Gate by submersial takeover)) {
   const [basePath, search] = pagePath.split("?");
   return `/_flareact/props${basePath}.json${search ? "?" + search : ""}`;
 }
